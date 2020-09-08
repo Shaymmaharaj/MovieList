@@ -1,342 +1,341 @@
-﻿"Field","Type","Null","Key","Default","Extra"
-"CISCO_PID","varchar(50)","YES","MUL","",""
-"CISCO_PN","varchar(50)","YES","","",""
-"DateOfManufacture","varchar(20)","YES","","",""
-"RecordID","varchar(6)","YES","","",""
-"RecordVER","varchar(2)","YES","","",""
-"ProductProcess","varchar(10)","YES","","",""
-"TestCodeRevision","varchar(8)","YES","","",""
-"ProcessBarcodeNum","varchar(31)","YES","","",""
-"Interface","varchar(15)","YES","","",""
-"StartDT","varchar(19)","YES","","",""
-"EndDT","varchar(19)","YES","","",""
-"TesterNumber","varchar(4)","YES","","",""
-"CellNumber","varchar(4)","YES","","",""
-"VendorSpecificNum","varchar(20)","YES","","",""
-"VendorID","varchar(8)","YES","","",""
-"ProductID","varchar(16)","YES","","",""
-"ProductRevLevel","varchar(8)","YES","","",""
-"InitialRevision","varchar(8)","YES","","",""
-"StandardVersion","decimal(4,2)","YES","","",""
-"MaxLBA","bigint","YES","","",""
-"BlockSize","int","YES","","",""
-"FinalBlockSize","int","YES","","",""
-"Capacity","varchar(8)","YES","","",""
-"POH","int","YES","","",""
-"UnitSerialNumber","varchar(20)","YES","","",""
-"ReadCount_LBA","int","YES","","",""
-"WriteCount_LBA","int","YES","","",""
-"DriveSpeed","varchar(20)","YES","","",""
-"isFeature_48bitAddress","varchar(4)","YES","","",""
-"GLIST_Count","bigint","YES","","",""
-"PLIST_Count","bigint","YES","","",""
-"GLIST_Limit","bigint","YES","","",""
-"RD_ERR_CORR_DELAY","bigint","YES","","",""
-"RD_ERR_CORR","bigint","YES","","",""
-"RD_REW_REREAD","bigint","YES","","",""
-"RD_ERR_CORR_TOTAL","bigint","YES","","",""
-"RD_ERR_CORR_ALGOR","bigint","YES","","",""
-"RD_ERR_UNCORR_TOTAL","bigint","YES","","",""
-"WR_ERR_CORR_DELAY","bigint","YES","","",""
-"WR_ERR_CORR","bigint","YES","","",""
-"WR_REW_REREAD","bigint","YES","","",""
-"WR_ERR_CORR_TOTAL","bigint","YES","","",""
-"WR_ERR_CORR_ALGOR","bigint","YES","","",""
-"WR_ERR_UNCORR_TOTAL","bigint","YES","","",""
-"CURR_TEMP","int","YES","","",""
-"TRIP_TEMP","int","YES","","",""
-"SMART_IE","int","YES","","",""
-"SSD_LIFE_LEFT","int","YES","","",""
-"FailCode","varchar(4)","YES","","",""
-"SenseInfo","varchar(10)","YES","","",""
-"CertKey","varchar(20)","YES","","",""
-"WORD_82","varchar(2)","YES","","",""
-"WORD_83","varchar(2)","YES","","",""
-"WORD_84","varchar(2)","YES","","",""
-"WORD_85","varchar(2)","YES","","",""
-"WORD_86","varchar(2)","YES","","",""
-"WORD_87","varchar(2)","YES","","",""
-"WORD_SATA","varchar(2)","YES","","",""
-"WORD_SCT","varchar(2)","YES","","",""
-"SMART_RAW_1","varchar(16)","YES","","",""
-"SMART_RAW_2","varchar(16)","YES","","",""
-"SMART_RAW_3","varchar(16)","YES","","",""
-"SMART_RAW_4","varchar(16)","YES","","",""
-"SMART_RAW_5","varchar(16)","YES","","",""
-"SMART_RAW_6","varchar(16)","YES","","",""
-"SMART_RAW_7","varchar(16)","YES","","",""
-"SMART_RAW_8","varchar(16)","YES","","",""
-"SMART_RAW_9","varchar(16)","YES","","",""
-"SMART_RAW_10","varchar(16)","YES","","",""
-"SMART_RAW_11","varchar(16)","YES","","",""
-"SMART_RAW_12","varchar(16)","YES","","",""
-"SMART_RAW_13","varchar(16)","YES","","",""
-"SMART_RAW_14","varchar(16)","YES","","",""
-"SMART_RAW_15","varchar(16)","YES","","",""
-"SMART_RAW_16","varchar(16)","YES","","",""
-"SMART_RAW_17","varchar(16)","YES","","",""
-"SMART_RAW_18","varchar(16)","YES","","",""
-"SMART_RAW_19","varchar(16)","YES","","",""
-"SMART_RAW_20","varchar(16)","YES","","",""
-"SMART_RAW_21","varchar(16)","YES","","",""
-"SMART_RAW_22","varchar(16)","YES","","",""
-"SMART_RAW_23","varchar(16)","YES","","",""
-"SMART_RAW_24","varchar(16)","YES","","",""
-"SMART_RAW_25","varchar(16)","YES","","",""
-"SMART_RAW_26","varchar(16)","YES","","",""
-"SMART_RAW_27","varchar(16)","YES","","",""
-"SMART_RAW_28","varchar(16)","YES","","",""
-"SMART_RAW_29","varchar(16)","YES","","",""
-"SMART_RAW_30","varchar(16)","YES","","",""
-"SMART_RAW_31","varchar(16)","YES","","",""
-"SMART_RAW_32","varchar(16)","YES","","",""
-"SMART_RAW_33","varchar(16)","YES","","",""
-"SMART_RAW_34","varchar(16)","YES","","",""
-"SMART_RAW_35","varchar(16)","YES","","",""
-"SMART_RAW_36","varchar(16)","YES","","",""
-"SMART_RAW_37","varchar(16)","YES","","",""
-"SMART_RAW_38","varchar(16)","YES","","",""
-"SMART_RAW_39","varchar(16)","YES","","",""
-"SMART_RAW_40","varchar(16)","YES","","",""
-"SMART_RAW_41","varchar(16)","YES","","",""
-"SMART_RAW_42","varchar(16)","YES","","",""
-"SMART_RAW_43","varchar(16)","YES","","",""
-"SMART_RAW_44","varchar(16)","YES","","",""
-"SMART_RAW_45","varchar(16)","YES","","",""
-"SMART_RAW_46","varchar(16)","YES","","",""
-"SMART_RAW_47","varchar(16)","YES","","",""
-"SMART_RAW_48","varchar(16)","YES","","",""
-"SMART_RAW_49","varchar(16)","YES","","",""
-"SMART_RAW_50","varchar(16)","YES","","",""
-"SMART_RAW_51","varchar(16)","YES","","",""
-"SMART_RAW_52","varchar(16)","YES","","",""
-"SMART_RAW_53","varchar(16)","YES","","",""
-"SMART_RAW_54","varchar(16)","YES","","",""
-"SMART_RAW_55","varchar(16)","YES","","",""
-"SMART_RAW_56","varchar(16)","YES","","",""
-"SMART_RAW_57","varchar(16)","YES","","",""
-"SMART_RAW_58","varchar(16)","YES","","",""
-"SMART_RAW_59","varchar(16)","YES","","",""
-"SMART_RAW_60","varchar(16)","YES","","",""
-"SMART_RAW_61","varchar(16)","YES","","",""
-"SMART_RAW_62","varchar(16)","YES","","",""
-"SMART_RAW_63","varchar(16)","YES","","",""
-"SMART_RAW_64","varchar(16)","YES","","",""
-"SMART_RAW_65","varchar(16)","YES","","",""
-"SMART_RAW_66","varchar(16)","YES","","",""
-"SMART_RAW_67","varchar(16)","YES","","",""
-"SMART_RAW_68","varchar(16)","YES","","",""
-"SMART_RAW_69","varchar(16)","YES","","",""
-"SMART_RAW_70","varchar(16)","YES","","",""
-"SMART_RAW_71","varchar(16)","YES","","",""
-"SMART_RAW_72","varchar(16)","YES","","",""
-"SMART_RAW_73","varchar(16)","YES","","",""
-"SMART_RAW_74","varchar(16)","YES","","",""
-"SMART_RAW_75","varchar(16)","YES","","",""
-"SMART_RAW_76","varchar(16)","YES","","",""
-"SMART_RAW_77","varchar(16)","YES","","",""
-"SMART_RAW_78","varchar(16)","YES","","",""
-"SMART_RAW_79","varchar(16)","YES","","",""
-"SMART_RAW_80","varchar(16)","YES","","",""
-"SMART_RAW_81","varchar(16)","YES","","",""
-"SMART_RAW_82","varchar(16)","YES","","",""
-"SMART_RAW_83","varchar(16)","YES","","",""
-"SMART_RAW_84","varchar(16)","YES","","",""
-"SMART_RAW_85","varchar(16)","YES","","",""
-"SMART_RAW_86","varchar(16)","YES","","",""
-"SMART_RAW_87","varchar(16)","YES","","",""
-"SMART_RAW_88","varchar(16)","YES","","",""
-"SMART_RAW_89","varchar(16)","YES","","",""
-"SMART_RAW_90","varchar(16)","YES","","",""
-"SMART_RAW_91","varchar(16)","YES","","",""
-"SMART_RAW_92","varchar(16)","YES","","",""
-"SMART_RAW_93","varchar(16)","YES","","",""
-"SMART_RAW_94","varchar(16)","YES","","",""
-"SMART_RAW_95","varchar(16)","YES","","",""
-"SMART_RAW_96","varchar(16)","YES","","",""
-"SMART_RAW_97","varchar(16)","YES","","",""
-"SMART_RAW_98","varchar(16)","YES","","",""
-"SMART_RAW_99","varchar(16)","YES","","",""
-"SMART_RAW_100","varchar(16)","YES","","",""
-"SMART_RAW_101","varchar(16)","YES","","",""
-"SMART_RAW_102","varchar(16)","YES","","",""
-"SMART_RAW_103","varchar(16)","YES","","",""
-"SMART_RAW_104","varchar(16)","YES","","",""
-"SMART_RAW_105","varchar(16)","YES","","",""
-"SMART_RAW_106","varchar(16)","YES","","",""
-"SMART_RAW_107","varchar(16)","YES","","",""
-"SMART_RAW_108","varchar(16)","YES","","",""
-"SMART_RAW_109","varchar(16)","YES","","",""
-"SMART_RAW_110","varchar(16)","YES","","",""
-"SMART_RAW_111","varchar(16)","YES","","",""
-"SMART_RAW_112","varchar(16)","YES","","",""
-"SMART_RAW_113","varchar(16)","YES","","",""
-"SMART_RAW_114","varchar(16)","YES","","",""
-"SMART_RAW_115","varchar(16)","YES","","",""
-"SMART_RAW_116","varchar(16)","YES","","",""
-"SMART_RAW_117","varchar(16)","YES","","",""
-"SMART_RAW_118","varchar(16)","YES","","",""
-"SMART_RAW_119","varchar(16)","YES","","",""
-"SMART_RAW_120","varchar(16)","YES","","",""
-"SMART_RAW_121","varchar(16)","YES","","",""
-"SMART_RAW_122","varchar(16)","YES","","",""
-"SMART_RAW_123","varchar(16)","YES","","",""
-"SMART_RAW_124","varchar(16)","YES","","",""
-"SMART_RAW_125","varchar(16)","YES","","",""
-"SMART_RAW_126","varchar(16)","YES","","",""
-"SMART_RAW_127","varchar(16)","YES","","",""
-"SMART_RAW_128","varchar(16)","YES","","",""
-"SMART_RAW_129","varchar(16)","YES","","",""
-"SMART_RAW_130","varchar(16)","YES","","",""
-"SMART_RAW_131","varchar(16)","YES","","",""
-"SMART_RAW_132","varchar(16)","YES","","",""
-"SMART_RAW_133","varchar(16)","YES","","",""
-"SMART_RAW_134","varchar(16)","YES","","",""
-"SMART_RAW_135","varchar(16)","YES","","",""
-"SMART_RAW_136","varchar(16)","YES","","",""
-"SMART_RAW_137","varchar(16)","YES","","",""
-"SMART_RAW_138","varchar(16)","YES","","",""
-"SMART_RAW_139","varchar(16)","YES","","",""
-"SMART_RAW_140","varchar(16)","YES","","",""
-"SMART_RAW_141","varchar(16)","YES","","",""
-"SMART_RAW_142","varchar(16)","YES","","",""
-"SMART_RAW_143","varchar(16)","YES","","",""
-"SMART_RAW_144","varchar(16)","YES","","",""
-"SMART_RAW_145","varchar(16)","YES","","",""
-"SMART_RAW_146","varchar(16)","YES","","",""
-"SMART_RAW_147","varchar(16)","YES","","",""
-"SMART_RAW_148","varchar(16)","YES","","",""
-"SMART_RAW_149","varchar(16)","YES","","",""
-"SMART_RAW_150","varchar(16)","YES","","",""
-"SMART_RAW_151","varchar(16)","YES","","",""
-"SMART_RAW_152","varchar(16)","YES","","",""
-"SMART_RAW_153","varchar(16)","YES","","",""
-"SMART_RAW_154","varchar(16)","YES","","",""
-"SMART_RAW_155","varchar(16)","YES","","",""
-"SMART_RAW_156","varchar(16)","YES","","",""
-"SMART_RAW_157","varchar(16)","YES","","",""
-"SMART_RAW_158","varchar(16)","YES","","",""
-"SMART_RAW_159","varchar(16)","YES","","",""
-"SMART_RAW_160","varchar(16)","YES","","",""
-"SMART_RAW_161","varchar(16)","YES","","",""
-"SMART_RAW_162","varchar(16)","YES","","",""
-"SMART_RAW_163","varchar(16)","YES","","",""
-"SMART_RAW_164","varchar(16)","YES","","",""
-"SMART_RAW_165","varchar(16)","YES","","",""
-"SMART_RAW_166","varchar(16)","YES","","",""
-"SMART_RAW_167","varchar(16)","YES","","",""
-"SMART_RAW_168","varchar(16)","YES","","",""
-"SMART_RAW_169","varchar(16)","YES","","",""
-"SMART_RAW_170","varchar(16)","YES","","",""
-"SMART_RAW_171","varchar(16)","YES","","",""
-"SMART_RAW_172","varchar(16)","YES","","",""
-"SMART_RAW_173","varchar(16)","YES","","",""
-"SMART_RAW_174","varchar(16)","YES","","",""
-"SMART_RAW_175","varchar(16)","YES","","",""
-"SMART_RAW_176","varchar(16)","YES","","",""
-"SMART_RAW_177","varchar(16)","YES","","",""
-"SMART_RAW_178","varchar(16)","YES","","",""
-"SMART_RAW_179","varchar(16)","YES","","",""
-"SMART_RAW_180","varchar(16)","YES","","",""
-"SMART_RAW_181","varchar(16)","YES","","",""
-"SMART_RAW_182","varchar(16)","YES","","",""
-"SMART_RAW_183","varchar(16)","YES","","",""
-"SMART_RAW_184","varchar(16)","YES","","",""
-"SMART_RAW_185","varchar(16)","YES","","",""
-"SMART_RAW_186","varchar(16)","YES","","",""
-"SMART_RAW_187","varchar(16)","YES","","",""
-"SMART_RAW_188","varchar(16)","YES","","",""
-"SMART_RAW_189","varchar(16)","YES","","",""
-"SMART_RAW_190","varchar(16)","YES","","",""
-"SMART_RAW_191","varchar(16)","YES","","",""
-"SMART_RAW_192","varchar(16)","YES","","",""
-"SMART_RAW_193","varchar(16)","YES","","",""
-"SMART_RAW_194","varchar(16)","YES","","",""
-"SMART_RAW_195","varchar(16)","YES","","",""
-"SMART_RAW_196","varchar(16)","YES","","",""
-"SMART_RAW_197","varchar(16)","YES","","",""
-"SMART_RAW_198","varchar(16)","YES","","",""
-"SMART_RAW_199","varchar(16)","YES","","",""
-"SMART_RAW_200","varchar(16)","YES","","",""
-"SMART_RAW_201","varchar(16)","YES","","",""
-"SMART_RAW_202","varchar(16)","YES","","",""
-"SMART_RAW_203","varchar(16)","YES","","",""
-"SMART_RAW_204","varchar(16)","YES","","",""
-"SMART_RAW_205","varchar(16)","YES","","",""
-"SMART_RAW_206","varchar(16)","YES","","",""
-"SMART_RAW_207","varchar(16)","YES","","",""
-"SMART_RAW_208","varchar(16)","YES","","",""
-"SMART_RAW_209","varchar(16)","YES","","",""
-"SMART_RAW_210","varchar(16)","YES","","",""
-"SMART_RAW_211","varchar(16)","YES","","",""
-"SMART_RAW_212","varchar(16)","YES","","",""
-"SMART_RAW_213","varchar(16)","YES","","",""
-"SMART_RAW_214","varchar(16)","YES","","",""
-"SMART_RAW_215","varchar(16)","YES","","",""
-"SMART_RAW_216","varchar(16)","YES","","",""
-"SMART_RAW_217","varchar(16)","YES","","",""
-"SMART_RAW_218","varchar(16)","YES","","",""
-"SMART_RAW_219","varchar(16)","YES","","",""
-"SMART_RAW_220","varchar(16)","YES","","",""
-"SMART_RAW_221","varchar(16)","YES","","",""
-"SMART_RAW_222","varchar(16)","YES","","",""
-"SMART_RAW_223","varchar(16)","YES","","",""
-"SMART_RAW_224","varchar(16)","YES","","",""
-"SMART_RAW_225","varchar(16)","YES","","",""
-"SMART_RAW_226","varchar(16)","YES","","",""
-"SMART_RAW_227","varchar(16)","YES","","",""
-"SMART_RAW_228","varchar(16)","YES","","",""
-"SMART_RAW_229","varchar(16)","YES","","",""
-"SMART_RAW_230","varchar(16)","YES","","",""
-"SMART_RAW_231","varchar(16)","YES","","",""
-"SMART_RAW_232","varchar(16)","YES","","",""
-"SMART_RAW_233","varchar(16)","YES","","",""
-"SMART_RAW_234","varchar(16)","YES","","",""
-"SMART_RAW_235","varchar(16)","YES","","",""
-"SMART_RAW_236","varchar(16)","YES","","",""
-"SMART_RAW_237","varchar(16)","YES","","",""
-"SMART_RAW_238","varchar(16)","YES","","",""
-"SMART_RAW_239","varchar(16)","YES","","",""
-"SMART_RAW_240","varchar(16)","YES","","",""
-"SMART_RAW_241","varchar(16)","YES","","",""
-"SMART_RAW_242","varchar(16)","YES","","",""
-"SMART_RAW_243","varchar(16)","YES","","",""
-"SMART_RAW_244","varchar(16)","YES","","",""
-"SMART_RAW_245","varchar(16)","YES","","",""
-"SMART_RAW_246","varchar(16)","YES","","",""
-"SMART_RAW_247","varchar(16)","YES","","",""
-"SMART_RAW_248","varchar(16)","YES","","",""
-"SMART_RAW_249","varchar(16)","YES","","",""
-"SMART_RAW_250","varchar(16)","YES","","",""
-"SMART_RAW_251","varchar(16)","YES","","",""
-"SMART_RAW_252","varchar(16)","YES","","",""
-"SMART_RAW_253","varchar(16)","YES","","",""
-"SMART_RAW_254","varchar(16)","YES","","",""
-"SMART_RAW_255","varchar(16)","YES","","",""
-"critical_warning","varchar(16)","YES","","",""
-"Available_Spare_first","varchar(16)","YES","","",""
-"temp_threshold","varchar(16)","YES","","",""
-"nvm_subsystem_reliability","varchar(16)","YES","","",""
-"read_only","varchar(16)","YES","","",""
-"volatile_mem","varchar(16)","YES","","",""
-"persistent_mem","varchar(16)","YES","","",""
-"available_spare","varchar(16)","YES","","",""
-"available_spare_threshold","varchar(16)","YES","","",""
-"endurance_group_critical_warning_summary","varchar(16)","YES","","",""
-"host_read_commands","varchar(16)","YES","","",""
-"host_write_commands","varchar(16)","YES","","",""
-"controller_busy_time","varchar(16)","YES","","",""
-"power_cycles","varchar(16)","YES","","",""
-"unsafe_shutdowns","varchar(16)","YES","","",""
-"media_errors","varchar(16)","YES","","",""
-"num_err_log_entries","varchar(16)","YES","","",""
-"Warning_Temperature_Time","varchar(16)","YES","","",""
-"Critical_Composite_Temperature_Time","varchar(16)","YES","","",""
-"Temp_Sensor_1","varchar(16)","YES","","",""
-"Temp_Sensor_2","varchar(16)","YES","","",""
-"Temp_Sensor_3","varchar(16)","YES","","",""
-"TM_T1_Trans_Count","varchar(16)","YES","","",""
-"TM_T2_Trans_Count","varchar(16)","YES","","",""
-"TM_T1_Total_Time","varchar(16)","YES","","",""
-"TM_T2_Total_Time","varchar(16)","YES","","",""
-"InDateTime","timestamp","NO","MUL","CURRENT_TIMESTAMP","DEFAULT_GENERATED"
+﻿CISCO_PID
+searchBySerial:58 CISCO_PN
+searchBySerial:58 DateOfManufacture
+searchBySerial:58 RecordID
+searchBySerial:58 RecordVER
+searchBySerial:58 ProductProcess
+searchBySerial:58 TestCodeRevision
+searchBySerial:58 ProcessBarcodeNum
+searchBySerial:58 Interface
+searchBySerial:58 StartDT
+searchBySerial:58 EndDT
+searchBySerial:58 TesterNumber
+searchBySerial:58 CellNumber
+searchBySerial:58 VendorSpecificNum
+searchBySerial:58 VendorID
+searchBySerial:58 ProductID
+searchBySerial:58 ProductRevLevel
+searchBySerial:58 InitialRevision
+searchBySerial:58 StandardVersion
+searchBySerial:58 MaxLBA
+searchBySerial:58 BlockSize
+searchBySerial:58 FinalBlockSize
+searchBySerial:58 Capacity
+searchBySerial:58 POH
+searchBySerial:58 UnitSerialNumber
+searchBySerial:58 ReadCount_LBA
+searchBySerial:58 WriteCount_LBA
+searchBySerial:58 DriveSpeed
+searchBySerial:58 isFeature_48bitAddress
+searchBySerial:58 GLIST_Count
+searchBySerial:58 PLIST_Count
+searchBySerial:58 GLIST_Limit
+searchBySerial:58 RD_ERR_CORR_DELAY
+searchBySerial:58 RD_ERR_CORR
+searchBySerial:58 RD_REW_REREAD
+searchBySerial:58 RD_ERR_CORR_TOTAL
+searchBySerial:58 RD_ERR_CORR_ALGOR
+searchBySerial:58 RD_ERR_UNCORR_TOTAL
+searchBySerial:58 WR_ERR_CORR_DELAY
+searchBySerial:58 WR_ERR_CORR
+searchBySerial:58 WR_REW_REREAD
+searchBySerial:58 WR_ERR_CORR_TOTAL
+searchBySerial:58 WR_ERR_CORR_ALGOR
+searchBySerial:58 WR_ERR_UNCORR_TOTAL
+searchBySerial:58 CURR_TEMP
+searchBySerial:58 TRIP_TEMP
+searchBySerial:58 SMART_IE
+searchBySerial:58 SSD_LIFE_LEFT
+searchBySerial:58 FailCode
+searchBySerial:58 SenseInfo
+searchBySerial:58 CertKey
+searchBySerial:58 WORD_82
+searchBySerial:58 WORD_83
+searchBySerial:58 WORD_84
+searchBySerial:58 WORD_85
+searchBySerial:58 WORD_86
+searchBySerial:58 WORD_87
+searchBySerial:58 WORD_SATA
+searchBySerial:58 WORD_SCT
+searchBySerial:58 SMART_RAW_1
+searchBySerial:58 SMART_RAW_2
+searchBySerial:58 SMART_RAW_3
+searchBySerial:58 SMART_RAW_4
+searchBySerial:58 SMART_RAW_5
+searchBySerial:58 SMART_RAW_6
+searchBySerial:58 SMART_RAW_7
+searchBySerial:58 SMART_RAW_8
+searchBySerial:58 SMART_RAW_9
+searchBySerial:58 SMART_RAW_10
+searchBySerial:58 SMART_RAW_11
+searchBySerial:58 SMART_RAW_12
+searchBySerial:58 SMART_RAW_13
+searchBySerial:58 SMART_RAW_14
+searchBySerial:58 SMART_RAW_15
+searchBySerial:58 SMART_RAW_16
+searchBySerial:58 SMART_RAW_17
+searchBySerial:58 SMART_RAW_18
+searchBySerial:58 SMART_RAW_19
+searchBySerial:58 SMART_RAW_20
+searchBySerial:58 SMART_RAW_21
+searchBySerial:58 SMART_RAW_22
+searchBySerial:58 SMART_RAW_23
+searchBySerial:58 SMART_RAW_24
+searchBySerial:58 SMART_RAW_25
+searchBySerial:58 SMART_RAW_26
+searchBySerial:58 SMART_RAW_27
+searchBySerial:58 SMART_RAW_28
+searchBySerial:58 SMART_RAW_29
+searchBySerial:58 SMART_RAW_30
+searchBySerial:58 SMART_RAW_31
+searchBySerial:58 SMART_RAW_32
+searchBySerial:58 SMART_RAW_33
+searchBySerial:58 SMART_RAW_34
+searchBySerial:58 SMART_RAW_35
+searchBySerial:58 SMART_RAW_36
+searchBySerial:58 SMART_RAW_37
+searchBySerial:58 SMART_RAW_38
+searchBySerial:58 SMART_RAW_39
+searchBySerial:58 SMART_RAW_40
+searchBySerial:58 SMART_RAW_41
+searchBySerial:58 SMART_RAW_42
+searchBySerial:58 SMART_RAW_43
+searchBySerial:58 SMART_RAW_44
+searchBySerial:58 SMART_RAW_45
+searchBySerial:58 SMART_RAW_46
+searchBySerial:58 SMART_RAW_47
+searchBySerial:58 SMART_RAW_48
+searchBySerial:58 SMART_RAW_49
+searchBySerial:58 SMART_RAW_50
+searchBySerial:58 SMART_RAW_51
+searchBySerial:58 SMART_RAW_52
+searchBySerial:58 SMART_RAW_53
+searchBySerial:58 SMART_RAW_54
+searchBySerial:58 SMART_RAW_55
+searchBySerial:58 SMART_RAW_56
+searchBySerial:58 SMART_RAW_57
+searchBySerial:58 SMART_RAW_58
+searchBySerial:58 SMART_RAW_59
+searchBySerial:58 SMART_RAW_60
+searchBySerial:58 SMART_RAW_61
+searchBySerial:58 SMART_RAW_62
+searchBySerial:58 SMART_RAW_63
+searchBySerial:58 SMART_RAW_64
+searchBySerial:58 SMART_RAW_65
+searchBySerial:58 SMART_RAW_66
+searchBySerial:58 SMART_RAW_67
+searchBySerial:58 SMART_RAW_68
+searchBySerial:58 SMART_RAW_69
+searchBySerial:58 SMART_RAW_70
+searchBySerial:58 SMART_RAW_71
+searchBySerial:58 SMART_RAW_72
+searchBySerial:58 SMART_RAW_73
+searchBySerial:58 SMART_RAW_74
+searchBySerial:58 SMART_RAW_75
+searchBySerial:58 SMART_RAW_76
+searchBySerial:58 SMART_RAW_77
+searchBySerial:58 SMART_RAW_78
+searchBySerial:58 SMART_RAW_79
+searchBySerial:58 SMART_RAW_80
+searchBySerial:58 SMART_RAW_81
+searchBySerial:58 SMART_RAW_82
+searchBySerial:58 SMART_RAW_83
+searchBySerial:58 SMART_RAW_84
+searchBySerial:58 SMART_RAW_85
+searchBySerial:58 SMART_RAW_86
+searchBySerial:58 SMART_RAW_87
+searchBySerial:58 SMART_RAW_88
+searchBySerial:58 SMART_RAW_89
+searchBySerial:58 SMART_RAW_90
+searchBySerial:58 SMART_RAW_91
+searchBySerial:58 SMART_RAW_92
+searchBySerial:58 SMART_RAW_93
+searchBySerial:58 SMART_RAW_94
+searchBySerial:58 SMART_RAW_95
+searchBySerial:58 SMART_RAW_96
+searchBySerial:58 SMART_RAW_97
+searchBySerial:58 SMART_RAW_98
+searchBySerial:58 SMART_RAW_99
+searchBySerial:58 SMART_RAW_100
+searchBySerial:58 SMART_RAW_101
+searchBySerial:58 SMART_RAW_102
+searchBySerial:58 SMART_RAW_103
+searchBySerial:58 SMART_RAW_104
+searchBySerial:58 SMART_RAW_105
+searchBySerial:58 SMART_RAW_106
+searchBySerial:58 SMART_RAW_107
+searchBySerial:58 SMART_RAW_108
+searchBySerial:58 SMART_RAW_109
+searchBySerial:58 SMART_RAW_110
+searchBySerial:58 SMART_RAW_111
+searchBySerial:58 SMART_RAW_112
+searchBySerial:58 SMART_RAW_113
+searchBySerial:58 SMART_RAW_114
+searchBySerial:58 SMART_RAW_115
+searchBySerial:58 SMART_RAW_116
+searchBySerial:58 SMART_RAW_117
+searchBySerial:58 SMART_RAW_118
+searchBySerial:58 SMART_RAW_119
+searchBySerial:58 SMART_RAW_120
+searchBySerial:58 SMART_RAW_121
+searchBySerial:58 SMART_RAW_122
+searchBySerial:58 SMART_RAW_123
+searchBySerial:58 SMART_RAW_124
+searchBySerial:58 SMART_RAW_125
+searchBySerial:58 SMART_RAW_126
+searchBySerial:58 SMART_RAW_127
+searchBySerial:58 SMART_RAW_128
+searchBySerial:58 SMART_RAW_129
+searchBySerial:58 SMART_RAW_130
+searchBySerial:58 SMART_RAW_131
+searchBySerial:58 SMART_RAW_132
+searchBySerial:58 SMART_RAW_133
+searchBySerial:58 SMART_RAW_134
+searchBySerial:58 SMART_RAW_135
+searchBySerial:58 SMART_RAW_136
+searchBySerial:58 SMART_RAW_137
+searchBySerial:58 SMART_RAW_138
+searchBySerial:58 SMART_RAW_139
+searchBySerial:58 SMART_RAW_140
+searchBySerial:58 SMART_RAW_141
+searchBySerial:58 SMART_RAW_142
+searchBySerial:58 SMART_RAW_143
+searchBySerial:58 SMART_RAW_144
+searchBySerial:58 SMART_RAW_145
+searchBySerial:58 SMART_RAW_146
+searchBySerial:58 SMART_RAW_147
+searchBySerial:58 SMART_RAW_148
+searchBySerial:58 SMART_RAW_149
+searchBySerial:58 SMART_RAW_150
+searchBySerial:58 SMART_RAW_151
+searchBySerial:58 SMART_RAW_152
+searchBySerial:58 SMART_RAW_153
+searchBySerial:58 SMART_RAW_154
+searchBySerial:58 SMART_RAW_155
+searchBySerial:58 SMART_RAW_156
+searchBySerial:58 SMART_RAW_157
+searchBySerial:58 SMART_RAW_158
+searchBySerial:58 SMART_RAW_159
+searchBySerial:58 SMART_RAW_160
+searchBySerial:58 SMART_RAW_161
+searchBySerial:58 SMART_RAW_162
+searchBySerial:58 SMART_RAW_163
+searchBySerial:58 SMART_RAW_164
+searchBySerial:58 SMART_RAW_165
+searchBySerial:58 SMART_RAW_166
+searchBySerial:58 SMART_RAW_167
+searchBySerial:58 SMART_RAW_168
+searchBySerial:58 SMART_RAW_169
+searchBySerial:58 SMART_RAW_170
+searchBySerial:58 SMART_RAW_171
+searchBySerial:58 SMART_RAW_172
+searchBySerial:58 SMART_RAW_173
+searchBySerial:58 SMART_RAW_174
+searchBySerial:58 SMART_RAW_175
+searchBySerial:58 SMART_RAW_176
+searchBySerial:58 SMART_RAW_177
+searchBySerial:58 SMART_RAW_178
+searchBySerial:58 SMART_RAW_179
+searchBySerial:58 SMART_RAW_180
+searchBySerial:58 SMART_RAW_181
+searchBySerial:58 SMART_RAW_182
+searchBySerial:58 SMART_RAW_183
+searchBySerial:58 SMART_RAW_184
+searchBySerial:58 SMART_RAW_185
+searchBySerial:58 SMART_RAW_186
+searchBySerial:58 SMART_RAW_187
+searchBySerial:58 SMART_RAW_188
+searchBySerial:58 SMART_RAW_189
+searchBySerial:58 SMART_RAW_190
+searchBySerial:58 SMART_RAW_191
+searchBySerial:58 SMART_RAW_192
+searchBySerial:58 SMART_RAW_193
+searchBySerial:58 SMART_RAW_194
+searchBySerial:58 SMART_RAW_195
+searchBySerial:58 SMART_RAW_196
+searchBySerial:58 SMART_RAW_197
+searchBySerial:58 SMART_RAW_198
+searchBySerial:58 SMART_RAW_199
+searchBySerial:58 SMART_RAW_200
+searchBySerial:58 SMART_RAW_201
+searchBySerial:58 SMART_RAW_202
+searchBySerial:58 SMART_RAW_203
+searchBySerial:58 SMART_RAW_204
+searchBySerial:58 SMART_RAW_205
+searchBySerial:58 SMART_RAW_206
+searchBySerial:58 SMART_RAW_207
+searchBySerial:58 SMART_RAW_208
+searchBySerial:58 SMART_RAW_209
+searchBySerial:58 SMART_RAW_210
+searchBySerial:58 SMART_RAW_211
+searchBySerial:58 SMART_RAW_212
+searchBySerial:58 SMART_RAW_213
+searchBySerial:58 SMART_RAW_214
+searchBySerial:58 SMART_RAW_215
+searchBySerial:58 SMART_RAW_216
+searchBySerial:58 SMART_RAW_217
+searchBySerial:58 SMART_RAW_218
+searchBySerial:58 SMART_RAW_219
+searchBySerial:58 SMART_RAW_220
+searchBySerial:58 SMART_RAW_221
+searchBySerial:58 SMART_RAW_222
+searchBySerial:58 SMART_RAW_223
+searchBySerial:58 SMART_RAW_224
+searchBySerial:58 SMART_RAW_225
+searchBySerial:58 SMART_RAW_226
+searchBySerial:58 SMART_RAW_227
+searchBySerial:58 SMART_RAW_228
+searchBySerial:58 SMART_RAW_229
+searchBySerial:58 SMART_RAW_230
+searchBySerial:58 SMART_RAW_231
+searchBySerial:58 SMART_RAW_232
+searchBySerial:58 SMART_RAW_233
+searchBySerial:58 SMART_RAW_234
+searchBySerial:58 SMART_RAW_235
+searchBySerial:58 SMART_RAW_236
+searchBySerial:58 SMART_RAW_237
+searchBySerial:58 SMART_RAW_238
+searchBySerial:58 SMART_RAW_239
+searchBySerial:58 SMART_RAW_240
+searchBySerial:58 SMART_RAW_241
+searchBySerial:58 SMART_RAW_242
+searchBySerial:58 SMART_RAW_243
+searchBySerial:58 SMART_RAW_244
+searchBySerial:58 SMART_RAW_245
+searchBySerial:58 SMART_RAW_246
+searchBySerial:58 SMART_RAW_247
+searchBySerial:58 SMART_RAW_248
+searchBySerial:58 SMART_RAW_249
+searchBySerial:58 SMART_RAW_250
+searchBySerial:58 SMART_RAW_251
+searchBySerial:58 SMART_RAW_252
+searchBySerial:58 SMART_RAW_253
+searchBySerial:58 SMART_RAW_254
+searchBySerial:58 SMART_RAW_255
+searchBySerial:58 critical_warning
+searchBySerial:58 Available_Spare_first
+searchBySerial:58 temp_threshold
+searchBySerial:58 nvm_subsystem_reliability
+searchBySerial:58 read_only
+searchBySerial:58 volatile_mem
+searchBySerial:58 persistent_mem
+searchBySerial:58 available_spare
+searchBySerial:58 available_spare_threshold
+searchBySerial:58 endurance_group_critical_warning_summary
+searchBySerial:58 host_read_commands
+searchBySerial:58 host_write_commands
+searchBySerial:58 controller_busy_time
+searchBySerial:58 power_cycles
+searchBySerial:58 unsafe_shutdowns
+searchBySerial:58 media_errors
+searchBySerial:58 num_err_log_entries
+searchBySerial:58 Warning_Temperature_Time
+searchBySerial:58 Critical_Composite_Temperature_Time
+searchBySerial:58 Temp_Sensor_1
+searchBySerial:58 Temp_Sensor_2
+searchBySerial:58 Temp_Sensor_3
+searchBySerial:58 TM_T1_Trans_Count
+searchBySerial:58 TM_T2_Trans_Count
+searchBySerial:58 TM_T1_Total_Time
+searchBySerial:58 TM_T2_Total_Time
+searchBySerial:58 InDateTime
